@@ -34,6 +34,7 @@
 		AEF8D7D41FE3D36C004637B9 /* YBenzFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8D7D31FE3D36C004637B9 /* YBenzFactory.m */; };
 		AEF8D7D81FE3D3A5004637B9 /* YAudi.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8D7D71FE3D3A5004637B9 /* YAudi.m */; };
 		AEF8D7DB1FE3D3B0004637B9 /* YBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8D7DA1FE3D3B0004637B9 /* YBenz.m */; };
+		AEF8D7DD1FE3EE1D004637B9 /* 工厂方法模式.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF8D7DC1FE3EE1D004637B9 /* 工厂方法模式.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		AEF8D7D71FE3D3A5004637B9 /* YAudi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAudi.m; sourceTree = "<group>"; };
 		AEF8D7D91FE3D3B0004637B9 /* YBenz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBenz.h; sourceTree = "<group>"; };
 		AEF8D7DA1FE3D3B0004637B9 /* YBenz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBenz.m; sourceTree = "<group>"; };
+		AEF8D7DC1FE3EE1D004637B9 /* 工厂方法模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "工厂方法模式.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +239,7 @@
 		AEF8D7C41FE3CFF8004637B9 /* UML类图 */ = {
 			isa = PBXGroup;
 			children = (
+				AEF8D7DC1FE3EE1D004637B9 /* 工厂方法模式.png */,
 			);
 			path = "UML类图";
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 			files = (
 				AEF8D7BD1FE3CF7C004637B9 /* LaunchScreen.storyboard in Resources */,
 				AEF8D7BA1FE3CF7C004637B9 /* Assets.xcassets in Resources */,
+				AEF8D7DD1FE3EE1D004637B9 /* 工厂方法模式.png in Resources */,
 				AEF8D7B81FE3CF7C004637B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
