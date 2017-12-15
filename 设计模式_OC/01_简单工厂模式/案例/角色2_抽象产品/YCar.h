@@ -9,7 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @protocol YCar <NSObject>
-
 - (void)run;
-
 @end

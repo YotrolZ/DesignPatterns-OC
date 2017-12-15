@@ -160,11 +160,11 @@
 			isa = PBXGroup;
 			children = (
 				AEF8D79C1FE3BD1E004637B9 /* YAudi.h */,
-				AEF8D79D1FE3BD1E004637B9 /* YLandRover.m */,
-				AEF8D79E1FE3BD1E004637B9 /* YBenz.h */,
 				AEF8D79F1FE3BD1E004637B9 /* YAudi.m */,
-				AEF8D7A01FE3BD1E004637B9 /* YLandRover.h */,
+				AEF8D79E1FE3BD1E004637B9 /* YBenz.h */,
 				AEF8D7A11FE3BD1E004637B9 /* YBenz.m */,
+				AEF8D7A01FE3BD1E004637B9 /* YLandRover.h */,
+				AEF8D79D1FE3BD1E004637B9 /* YLandRover.m */,
 			);
 			path = "角色3_具体产品";
 			sourceTree = "<group>";
@@ -478,6 +478,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LME682U793;
 				INFOPLIST_FILE = "01_简单工厂模式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.-1-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -492,6 +493,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LME682U793;
 				INFOPLIST_FILE = "01_简单工厂模式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.-1-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
