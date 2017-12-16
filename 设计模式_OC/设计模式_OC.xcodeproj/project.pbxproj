@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE969B8E1FE5138C00B1FA97 /* YBenzSuvCar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE969B831FE5138C00B1FA97 /* YBenzSuvCar.m */; };
+		AE969B8F1FE5138C00B1FA97 /* YAudiSuvCar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE969B841FE5138C00B1FA97 /* YAudiSuvCar.m */; };
+		AE969B901FE5138C00B1FA97 /* YBenzMpvCar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE969B8A1FE5138C00B1FA97 /* YBenzMpvCar.m */; };
+		AE969B911FE5138C00B1FA97 /* YAudiMpvCar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE969B8D1FE5138C00B1FA97 /* YAudiMpvCar.m */; };
+		AE969B9C1FE51CB700B1FA97 /* YBenzCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE969B991FE51CB700B1FA97 /* YBenzCarFactory.m */; };
+		AE969B9D1FE51CB700B1FA97 /* YAudiCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE969B9A1FE51CB700B1FA97 /* YAudiCarFactory.m */; };
+		AE969B9F1FE5249200B1FA97 /* 抽象工厂模式.png in Resources */ = {isa = PBXBuildFile; fileRef = AE969B9E1FE5249200B1FA97 /* 抽象工厂模式.png */; };
 		AEF8D7681FE3BC84004637B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8D7671FE3BC84004637B9 /* AppDelegate.m */; };
 		AEF8D76B1FE3BC84004637B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8D76A1FE3BC84004637B9 /* ViewController.m */; };
 		AEF8D76E1FE3BC84004637B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF8D76C1FE3BC84004637B9 /* Main.storyboard */; };
@@ -35,9 +42,30 @@
 		AEF8D7D81FE3D3A5004637B9 /* YAudi.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8D7D71FE3D3A5004637B9 /* YAudi.m */; };
 		AEF8D7DB1FE3D3B0004637B9 /* YBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8D7DA1FE3D3B0004637B9 /* YBenz.m */; };
 		AEF8D7DD1FE3EE1D004637B9 /* 工厂方法模式.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF8D7DC1FE3EE1D004637B9 /* 工厂方法模式.png */; };
+		AEF8D7E61FE50E4B004637B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8D7E51FE50E4B004637B9 /* AppDelegate.m */; };
+		AEF8D7E91FE50E4B004637B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8D7E81FE50E4B004637B9 /* ViewController.m */; };
+		AEF8D7EC1FE50E4B004637B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF8D7EA1FE50E4B004637B9 /* Main.storyboard */; };
+		AEF8D7EE1FE50E4B004637B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF8D7ED1FE50E4B004637B9 /* Assets.xcassets */; };
+		AEF8D7F11FE50E4B004637B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF8D7EF1FE50E4B004637B9 /* LaunchScreen.storyboard */; };
+		AEF8D7F41FE50E4B004637B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8D7F31FE50E4B004637B9 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE969B801FE5138C00B1FA97 /* YSuvCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSuvCar.h; sourceTree = "<group>"; };
+		AE969B821FE5138C00B1FA97 /* YAudiSuvCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAudiSuvCar.h; sourceTree = "<group>"; };
+		AE969B831FE5138C00B1FA97 /* YBenzSuvCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBenzSuvCar.m; sourceTree = "<group>"; };
+		AE969B841FE5138C00B1FA97 /* YAudiSuvCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAudiSuvCar.m; sourceTree = "<group>"; };
+		AE969B851FE5138C00B1FA97 /* YBenzSuvCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBenzSuvCar.h; sourceTree = "<group>"; };
+		AE969B881FE5138C00B1FA97 /* YMpvCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMpvCar.h; sourceTree = "<group>"; };
+		AE969B8A1FE5138C00B1FA97 /* YBenzMpvCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBenzMpvCar.m; sourceTree = "<group>"; };
+		AE969B8B1FE5138C00B1FA97 /* YAudiMpvCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAudiMpvCar.h; sourceTree = "<group>"; };
+		AE969B8C1FE5138C00B1FA97 /* YBenzMpvCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBenzMpvCar.h; sourceTree = "<group>"; };
+		AE969B8D1FE5138C00B1FA97 /* YAudiMpvCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAudiMpvCar.m; sourceTree = "<group>"; };
+		AE969B981FE51CB700B1FA97 /* YBenzCarFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBenzCarFactory.h; sourceTree = "<group>"; };
+		AE969B991FE51CB700B1FA97 /* YBenzCarFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBenzCarFactory.m; sourceTree = "<group>"; };
+		AE969B9A1FE51CB700B1FA97 /* YAudiCarFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAudiCarFactory.m; sourceTree = "<group>"; };
+		AE969B9B1FE51CB700B1FA97 /* YAudiCarFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAudiCarFactory.h; sourceTree = "<group>"; };
+		AE969B9E1FE5249200B1FA97 /* 抽象工厂模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抽象工厂模式.png"; sourceTree = "<group>"; };
 		AEF8D7631FE3BC84004637B9 /* 设计模式_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "设计模式_OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF8D7661FE3BC84004637B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEF8D7671FE3BC84004637B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +117,17 @@
 		AEF8D7D91FE3D3B0004637B9 /* YBenz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBenz.h; sourceTree = "<group>"; };
 		AEF8D7DA1FE3D3B0004637B9 /* YBenz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBenz.m; sourceTree = "<group>"; };
 		AEF8D7DC1FE3EE1D004637B9 /* 工厂方法模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "工厂方法模式.png"; sourceTree = "<group>"; };
+		AEF8D7E21FE50E4A004637B9 /* 03_抽象工厂模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03_抽象工厂模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF8D7E41FE50E4B004637B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEF8D7E51FE50E4B004637B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEF8D7E71FE50E4B004637B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEF8D7E81FE50E4B004637B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEF8D7EB1FE50E4B004637B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEF8D7ED1FE50E4B004637B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEF8D7F01FE50E4B004637B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEF8D7F21FE50E4B004637B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF8D7F31FE50E4B004637B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEF8D7FF1FE51083004637B9 /* YCarAbsFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCarAbsFactory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,15 +152,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AEF8D7DF1FE50E4A004637B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE969B7E1FE5138C00B1FA97 /* 角色3_产品种类A */ = {
+			isa = PBXGroup;
+			children = (
+				AE969B7F1FE5138C00B1FA97 /* 抽象产品A */,
+				AE969B811FE5138C00B1FA97 /* 具体产品A */,
+			);
+			path = "角色3_产品种类A";
+			sourceTree = "<group>";
+		};
+		AE969B7F1FE5138C00B1FA97 /* 抽象产品A */ = {
+			isa = PBXGroup;
+			children = (
+				AE969B801FE5138C00B1FA97 /* YSuvCar.h */,
+			);
+			path = "抽象产品A";
+			sourceTree = "<group>";
+		};
+		AE969B811FE5138C00B1FA97 /* 具体产品A */ = {
+			isa = PBXGroup;
+			children = (
+				AE969B821FE5138C00B1FA97 /* YAudiSuvCar.h */,
+				AE969B831FE5138C00B1FA97 /* YBenzSuvCar.m */,
+				AE969B851FE5138C00B1FA97 /* YBenzSuvCar.h */,
+				AE969B841FE5138C00B1FA97 /* YAudiSuvCar.m */,
+			);
+			path = "具体产品A";
+			sourceTree = "<group>";
+		};
+		AE969B861FE5138C00B1FA97 /* 角色4_产品种类B */ = {
+			isa = PBXGroup;
+			children = (
+				AE969B871FE5138C00B1FA97 /* 抽象产品B */,
+				AE969B891FE5138C00B1FA97 /* 具体产品B */,
+			);
+			path = "角色4_产品种类B";
+			sourceTree = "<group>";
+		};
+		AE969B871FE5138C00B1FA97 /* 抽象产品B */ = {
+			isa = PBXGroup;
+			children = (
+				AE969B881FE5138C00B1FA97 /* YMpvCar.h */,
+			);
+			path = "抽象产品B";
+			sourceTree = "<group>";
+		};
+		AE969B891FE5138C00B1FA97 /* 具体产品B */ = {
+			isa = PBXGroup;
+			children = (
+				AE969B8B1FE5138C00B1FA97 /* YAudiMpvCar.h */,
+				AE969B8D1FE5138C00B1FA97 /* YAudiMpvCar.m */,
+				AE969B8C1FE5138C00B1FA97 /* YBenzMpvCar.h */,
+				AE969B8A1FE5138C00B1FA97 /* YBenzMpvCar.m */,
+			);
+			path = "具体产品B";
+			sourceTree = "<group>";
+		};
 		AEF8D75A1FE3BC84004637B9 = {
 			isa = PBXGroup;
 			children = (
 				AEF8D7651FE3BC84004637B9 /* 设计模式_OC */,
 				AEF8D7811FE3BC9C004637B9 /* 01_简单工厂模式 */,
 				AEF8D7AF1FE3CF7C004637B9 /* 02_工厂方法模式 */,
+				AEF8D7E31FE50E4B004637B9 /* 03_抽象工厂模式 */,
 				AEF8D7641FE3BC84004637B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,6 +235,7 @@
 				AEF8D7631FE3BC84004637B9 /* 设计模式_OC.app */,
 				AEF8D7801FE3BC9C004637B9 /* 01_简单工厂模式.app */,
 				AEF8D7AE1FE3CF7C004637B9 /* 02_工厂方法模式.app */,
+				AEF8D7E21FE50E4A004637B9 /* 03_抽象工厂模式.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -293,6 +397,62 @@
 			path = "角色2_具体工厂";
 			sourceTree = "<group>";
 		};
+		AEF8D7E31FE50E4B004637B9 /* 03_抽象工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AEF8D7F91FE50EEA004637B9 /* 案例 */,
+				AEF8D7F81FE50EEA004637B9 /* UML类图 */,
+				AEF8D7E41FE50E4B004637B9 /* AppDelegate.h */,
+				AEF8D7E51FE50E4B004637B9 /* AppDelegate.m */,
+				AEF8D7E71FE50E4B004637B9 /* ViewController.h */,
+				AEF8D7E81FE50E4B004637B9 /* ViewController.m */,
+				AEF8D7EA1FE50E4B004637B9 /* Main.storyboard */,
+				AEF8D7ED1FE50E4B004637B9 /* Assets.xcassets */,
+				AEF8D7EF1FE50E4B004637B9 /* LaunchScreen.storyboard */,
+				AEF8D7F21FE50E4B004637B9 /* Info.plist */,
+				AEF8D7F31FE50E4B004637B9 /* main.m */,
+			);
+			path = "03_抽象工厂模式";
+			sourceTree = "<group>";
+		};
+		AEF8D7F81FE50EEA004637B9 /* UML类图 */ = {
+			isa = PBXGroup;
+			children = (
+				AE969B9E1FE5249200B1FA97 /* 抽象工厂模式.png */,
+			);
+			path = "UML类图";
+			sourceTree = "<group>";
+		};
+		AEF8D7F91FE50EEA004637B9 /* 案例 */ = {
+			isa = PBXGroup;
+			children = (
+				AEF8D7FB1FE50EEA004637B9 /* 角色1_抽象工厂 */,
+				AEF8D7FC1FE50EEA004637B9 /* 角色2_具体工厂 */,
+				AE969B7E1FE5138C00B1FA97 /* 角色3_产品种类A */,
+				AE969B861FE5138C00B1FA97 /* 角色4_产品种类B */,
+			);
+			path = "案例";
+			sourceTree = "<group>";
+		};
+		AEF8D7FB1FE50EEA004637B9 /* 角色1_抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				AEF8D7FF1FE51083004637B9 /* YCarAbsFactory.h */,
+			);
+			path = "角色1_抽象工厂";
+			sourceTree = "<group>";
+		};
+		AEF8D7FC1FE50EEA004637B9 /* 角色2_具体工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				AE969B9B1FE51CB700B1FA97 /* YAudiCarFactory.h */,
+				AE969B9A1FE51CB700B1FA97 /* YAudiCarFactory.m */,
+				AE969B981FE51CB700B1FA97 /* YBenzCarFactory.h */,
+				AE969B991FE51CB700B1FA97 /* YBenzCarFactory.m */,
+			);
+			path = "角色2_具体工厂";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -347,6 +507,23 @@
 			productReference = AEF8D7AE1FE3CF7C004637B9 /* 02_工厂方法模式.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AEF8D7E11FE50E4A004637B9 /* 03_抽象工厂模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF8D7F51FE50E4B004637B9 /* Build configuration list for PBXNativeTarget "03_抽象工厂模式" */;
+			buildPhases = (
+				AEF8D7DE1FE50E4A004637B9 /* Sources */,
+				AEF8D7DF1FE50E4A004637B9 /* Frameworks */,
+				AEF8D7E01FE50E4A004637B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03_抽象工厂模式";
+			productName = "03_抽象工厂模式";
+			productReference = AEF8D7E21FE50E4A004637B9 /* 03_抽象工厂模式.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -368,6 +545,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					AEF8D7E11FE50E4A004637B9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = AEF8D75E1FE3BC84004637B9 /* Build configuration list for PBXProject "设计模式_OC" */;
@@ -386,6 +567,7 @@
 				AEF8D7621FE3BC84004637B9 /* 设计模式_OC */,
 				AEF8D77F1FE3BC9C004637B9 /* 01_简单工厂模式 */,
 				AEF8D7AD1FE3CF7C004637B9 /* 02_工厂方法模式 */,
+				AEF8D7E11FE50E4A004637B9 /* 03_抽象工厂模式 */,
 			);
 		};
 /* End PBXProject section */
@@ -420,6 +602,17 @@
 				AEF8D7BA1FE3CF7C004637B9 /* Assets.xcassets in Resources */,
 				AEF8D7DD1FE3EE1D004637B9 /* 工厂方法模式.png in Resources */,
 				AEF8D7B81FE3CF7C004637B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF8D7E01FE50E4A004637B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF8D7F11FE50E4B004637B9 /* LaunchScreen.storyboard in Resources */,
+				AEF8D7EE1FE50E4B004637B9 /* Assets.xcassets in Resources */,
+				AE969B9F1FE5249200B1FA97 /* 抽象工厂模式.png in Resources */,
+				AEF8D7EC1FE50E4B004637B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +654,22 @@
 				AEF8D7C01FE3CF7C004637B9 /* main.m in Sources */,
 				AEF8D7B21FE3CF7C004637B9 /* AppDelegate.m in Sources */,
 				AEF8D7DB1FE3D3B0004637B9 /* YBenz.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF8D7DE1FE50E4A004637B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE969B9D1FE51CB700B1FA97 /* YAudiCarFactory.m in Sources */,
+				AE969B8E1FE5138C00B1FA97 /* YBenzSuvCar.m in Sources */,
+				AEF8D7E91FE50E4B004637B9 /* ViewController.m in Sources */,
+				AE969B9C1FE51CB700B1FA97 /* YBenzCarFactory.m in Sources */,
+				AEF8D7F41FE50E4B004637B9 /* main.m in Sources */,
+				AE969B8F1FE5138C00B1FA97 /* YAudiSuvCar.m in Sources */,
+				AEF8D7E61FE50E4B004637B9 /* AppDelegate.m in Sources */,
+				AE969B901FE5138C00B1FA97 /* YBenzMpvCar.m in Sources */,
+				AE969B911FE5138C00B1FA97 /* YAudiMpvCar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +720,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				AEF8D7BC1FE3CF7C004637B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AEF8D7EA1FE50E4B004637B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF8D7EB1FE50E4B004637B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEF8D7EF1FE50E4B004637B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF8D7F01FE50E4B004637B9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -708,6 +933,34 @@
 			};
 			name = Release;
 		};
+		AEF8D7F61FE50E4B004637B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LME682U793;
+				INFOPLIST_FILE = "03_抽象工厂模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.-3-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEF8D7F71FE50E4B004637B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LME682U793;
+				INFOPLIST_FILE = "03_抽象工厂模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.-3-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -743,6 +996,15 @@
 			buildConfigurations = (
 				AEF8D7C21FE3CF7C004637B9 /* Debug */,
 				AEF8D7C31FE3CF7C004637B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF8D7F51FE50E4B004637B9 /* Build configuration list for PBXNativeTarget "03_抽象工厂模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF8D7F61FE50E4B004637B9 /* Debug */,
+				AEF8D7F71FE50E4B004637B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
