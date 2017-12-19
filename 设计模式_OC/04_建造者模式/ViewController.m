@@ -22,21 +22,22 @@
     YComputerDirector *director = [[YComputerDirector alloc] init];
     
     // 建造者
-    YNormalComputerBuilder *builder1 = [[YNormalComputerBuilder alloc] init];
-    YAdvancedComputerBuilder *builder2 = [[YAdvancedComputerBuilder alloc] init];
+    YNormalComputerBuilder *normalBuilder = [[YNormalComputerBuilder alloc] init];
+    YAdvancedComputerBuilder *advBuilder = [[YAdvancedComputerBuilder alloc] init];
     
-    // 装配、构建
-    [director constructWithBuilder:builder1];
+    // <普通电脑>装配、构建
+    [director constructWithBuilder:normalBuilder];
     // 具体产品
-    YComputer *computer1 = [builder1 getBuidResult];
-    [computer1 show];
+    YComputer *normalComputer = [normalBuilder getBuidResult];
+    // 展示产品
+    [normalComputer show];
     
-    // 装配、构建
-    [director constructWithBuilder:builder2];
+    // <普通电脑>装配、构建
+    [director constructWithBuilder:advBuilder];
     // 具体产品
-    YComputer *computer2 = [builder2 getBuidResult];
-    [computer2 show];
-    
+    YComputer *advComputer = [advBuilder getBuidResult];
+    // 展示产品
+    [advComputer show];
 }
 
 @end
