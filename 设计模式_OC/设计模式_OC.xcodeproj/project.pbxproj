@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE759ECE1FE8AB530086298D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE759ECD1FE8AB530086298D /* AppDelegate.m */; };
+		AE759ED11FE8AB530086298D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE759ED01FE8AB530086298D /* ViewController.m */; };
+		AE759ED41FE8AB530086298D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE759ED21FE8AB530086298D /* Main.storyboard */; };
+		AE759ED61FE8AB530086298D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE759ED51FE8AB530086298D /* Assets.xcassets */; };
+		AE759ED91FE8AB530086298D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE759ED71FE8AB530086298D /* LaunchScreen.storyboard */; };
+		AE759EDC1FE8AB530086298D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE759EDB1FE8AB530086298D /* main.m */; };
+		AE759EE91FE8AC050086298D /* 建造者模式.png in Resources */ = {isa = PBXBuildFile; fileRef = AE759EE11FE8AC050086298D /* 建造者模式.png */; };
+		AE759EEE1FE8AEC30086298D /* YNormalComputerBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = AE759EED1FE8AEC30086298D /* YNormalComputerBuilder.m */; };
+		AE759EF41FE8AEE20086298D /* YComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE759EF31FE8AEE20086298D /* YComputer.m */; };
+		AE759EF71FE8AF0A0086298D /* YComputerDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = AE759EF61FE8AF0A0086298D /* YComputerDirector.m */; };
+		AE759EFA1FE8B4AF0086298D /* YAdvancedComputerBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = AE759EF91FE8B4AF0086298D /* YAdvancedComputerBuilder.m */; };
 		AE969B8E1FE5138C00B1FA97 /* YBenzSuvCar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE969B831FE5138C00B1FA97 /* YBenzSuvCar.m */; };
 		AE969B8F1FE5138C00B1FA97 /* YAudiSuvCar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE969B841FE5138C00B1FA97 /* YAudiSuvCar.m */; };
 		AE969B901FE5138C00B1FA97 /* YBenzMpvCar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE969B8A1FE5138C00B1FA97 /* YBenzMpvCar.m */; };
@@ -51,6 +62,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE759ECA1FE8AB530086298D /* 04_建造者模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04_建造者模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE759ECC1FE8AB530086298D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE759ECD1FE8AB530086298D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE759ECF1FE8AB530086298D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE759ED01FE8AB530086298D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE759ED31FE8AB530086298D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE759ED51FE8AB530086298D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE759ED81FE8AB530086298D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE759EDA1FE8AB530086298D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE759EDB1FE8AB530086298D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE759EE11FE8AC050086298D /* 建造者模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "建造者模式.png"; sourceTree = "<group>"; };
+		AE759EEB1FE8AE690086298D /* YAbsComputerBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAbsComputerBuilder.h; sourceTree = "<group>"; };
+		AE759EEC1FE8AEC30086298D /* YNormalComputerBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YNormalComputerBuilder.h; sourceTree = "<group>"; };
+		AE759EED1FE8AEC30086298D /* YNormalComputerBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YNormalComputerBuilder.m; sourceTree = "<group>"; };
+		AE759EF21FE8AEE20086298D /* YComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YComputer.h; sourceTree = "<group>"; };
+		AE759EF31FE8AEE20086298D /* YComputer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YComputer.m; sourceTree = "<group>"; };
+		AE759EF51FE8AF0A0086298D /* YComputerDirector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YComputerDirector.h; sourceTree = "<group>"; };
+		AE759EF61FE8AF0A0086298D /* YComputerDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YComputerDirector.m; sourceTree = "<group>"; };
+		AE759EF81FE8B4AF0086298D /* YAdvancedComputerBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAdvancedComputerBuilder.h; sourceTree = "<group>"; };
+		AE759EF91FE8B4AF0086298D /* YAdvancedComputerBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAdvancedComputerBuilder.m; sourceTree = "<group>"; };
 		AE969B801FE5138C00B1FA97 /* YSuvCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSuvCar.h; sourceTree = "<group>"; };
 		AE969B821FE5138C00B1FA97 /* YAudiSuvCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAudiSuvCar.h; sourceTree = "<group>"; };
 		AE969B831FE5138C00B1FA97 /* YBenzSuvCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBenzSuvCar.m; sourceTree = "<group>"; };
@@ -131,6 +162,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AE759EC71FE8AB530086298D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AEF8D7601FE3BC84004637B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,6 +200,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE759ECB1FE8AB530086298D /* 04_建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AE759EE21FE8AC050086298D /* 案例 */,
+				AE759EE01FE8AC050086298D /* UML类图 */,
+				AE759ECC1FE8AB530086298D /* AppDelegate.h */,
+				AE759ECD1FE8AB530086298D /* AppDelegate.m */,
+				AE759ECF1FE8AB530086298D /* ViewController.h */,
+				AE759ED01FE8AB530086298D /* ViewController.m */,
+				AE759ED21FE8AB530086298D /* Main.storyboard */,
+				AE759ED51FE8AB530086298D /* Assets.xcassets */,
+				AE759ED71FE8AB530086298D /* LaunchScreen.storyboard */,
+				AE759EDA1FE8AB530086298D /* Info.plist */,
+				AE759EDB1FE8AB530086298D /* main.m */,
+			);
+			path = "04_建造者模式";
+			sourceTree = "<group>";
+		};
+		AE759EE01FE8AC050086298D /* UML类图 */ = {
+			isa = PBXGroup;
+			children = (
+				AE759EE11FE8AC050086298D /* 建造者模式.png */,
+			);
+			path = "UML类图";
+			sourceTree = "<group>";
+		};
+		AE759EE21FE8AC050086298D /* 案例 */ = {
+			isa = PBXGroup;
+			children = (
+				AE759EE81FE8AC050086298D /* 角色1_抽象建造者 */,
+				AE759EE51FE8AC050086298D /* 角色2_具体建造者 */,
+				AE759EE31FE8AC050086298D /* 角色3_具体产品 */,
+				AE759EE41FE8AC050086298D /* 角色4_指挥者 */,
+			);
+			path = "案例";
+			sourceTree = "<group>";
+		};
+		AE759EE31FE8AC050086298D /* 角色3_具体产品 */ = {
+			isa = PBXGroup;
+			children = (
+				AE759EF21FE8AEE20086298D /* YComputer.h */,
+				AE759EF31FE8AEE20086298D /* YComputer.m */,
+			);
+			path = "角色3_具体产品";
+			sourceTree = "<group>";
+		};
+		AE759EE41FE8AC050086298D /* 角色4_指挥者 */ = {
+			isa = PBXGroup;
+			children = (
+				AE759EF51FE8AF0A0086298D /* YComputerDirector.h */,
+				AE759EF61FE8AF0A0086298D /* YComputerDirector.m */,
+			);
+			path = "角色4_指挥者";
+			sourceTree = "<group>";
+		};
+		AE759EE51FE8AC050086298D /* 角色2_具体建造者 */ = {
+			isa = PBXGroup;
+			children = (
+				AE759EE71FE8AC050086298D /* 具体建造者A */,
+				AE759EE61FE8AC050086298D /* 具体建造者B */,
+			);
+			path = "角色2_具体建造者";
+			sourceTree = "<group>";
+		};
+		AE759EE61FE8AC050086298D /* 具体建造者B */ = {
+			isa = PBXGroup;
+			children = (
+				AE759EF81FE8B4AF0086298D /* YAdvancedComputerBuilder.h */,
+				AE759EF91FE8B4AF0086298D /* YAdvancedComputerBuilder.m */,
+			);
+			path = "具体建造者B";
+			sourceTree = "<group>";
+		};
+		AE759EE71FE8AC050086298D /* 具体建造者A */ = {
+			isa = PBXGroup;
+			children = (
+				AE759EEC1FE8AEC30086298D /* YNormalComputerBuilder.h */,
+				AE759EED1FE8AEC30086298D /* YNormalComputerBuilder.m */,
+			);
+			path = "具体建造者A";
+			sourceTree = "<group>";
+		};
+		AE759EE81FE8AC050086298D /* 角色1_抽象建造者 */ = {
+			isa = PBXGroup;
+			children = (
+				AE759EEB1FE8AE690086298D /* YAbsComputerBuilder.h */,
+			);
+			path = "角色1_抽象建造者";
+			sourceTree = "<group>";
+		};
 		AE969B7E1FE5138C00B1FA97 /* 角色3_产品种类A */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,9 +311,9 @@
 			isa = PBXGroup;
 			children = (
 				AE969B821FE5138C00B1FA97 /* YAudiSuvCar.h */,
-				AE969B831FE5138C00B1FA97 /* YBenzSuvCar.m */,
-				AE969B851FE5138C00B1FA97 /* YBenzSuvCar.h */,
 				AE969B841FE5138C00B1FA97 /* YAudiSuvCar.m */,
+				AE969B851FE5138C00B1FA97 /* YBenzSuvCar.h */,
+				AE969B831FE5138C00B1FA97 /* YBenzSuvCar.m */,
 			);
 			path = "具体产品A";
 			sourceTree = "<group>";
@@ -225,6 +353,7 @@
 				AEF8D7811FE3BC9C004637B9 /* 01_简单工厂模式 */,
 				AEF8D7AF1FE3CF7C004637B9 /* 02_工厂方法模式 */,
 				AEF8D7E31FE50E4B004637B9 /* 03_抽象工厂模式 */,
+				AE759ECB1FE8AB530086298D /* 04_建造者模式 */,
 				AEF8D7641FE3BC84004637B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -236,6 +365,7 @@
 				AEF8D7801FE3BC9C004637B9 /* 01_简单工厂模式.app */,
 				AEF8D7AE1FE3CF7C004637B9 /* 02_工厂方法模式.app */,
 				AEF8D7E21FE50E4A004637B9 /* 03_抽象工厂模式.app */,
+				AE759ECA1FE8AB530086298D /* 04_建造者模式.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -456,6 +586,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AE759EC91FE8AB530086298D /* 04_建造者模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE759EDF1FE8AB530086298D /* Build configuration list for PBXNativeTarget "04_建造者模式" */;
+			buildPhases = (
+				AE759EC61FE8AB530086298D /* Sources */,
+				AE759EC71FE8AB530086298D /* Frameworks */,
+				AE759EC81FE8AB530086298D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04_建造者模式";
+			productName = "04_建造者模式";
+			productReference = AE759ECA1FE8AB530086298D /* 04_建造者模式.app */;
+			productType = "com.apple.product-type.application";
+		};
 		AEF8D7621FE3BC84004637B9 /* 设计模式_OC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEF8D7791FE3BC84004637B9 /* Build configuration list for PBXNativeTarget "设计模式_OC" */;
@@ -533,6 +680,10 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = YotrolZ;
 				TargetAttributes = {
+					AE759EC91FE8AB530086298D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					AEF8D7621FE3BC84004637B9 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -568,11 +719,23 @@
 				AEF8D77F1FE3BC9C004637B9 /* 01_简单工厂模式 */,
 				AEF8D7AD1FE3CF7C004637B9 /* 02_工厂方法模式 */,
 				AEF8D7E11FE50E4A004637B9 /* 03_抽象工厂模式 */,
+				AE759EC91FE8AB530086298D /* 04_建造者模式 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AE759EC81FE8AB530086298D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE759ED91FE8AB530086298D /* LaunchScreen.storyboard in Resources */,
+				AE759ED61FE8AB530086298D /* Assets.xcassets in Resources */,
+				AE759ED41FE8AB530086298D /* Main.storyboard in Resources */,
+				AE759EE91FE8AC050086298D /* 建造者模式.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AEF8D7611FE3BC84004637B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -619,6 +782,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AE759EC61FE8AB530086298D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE759EF41FE8AEE20086298D /* YComputer.m in Sources */,
+				AE759ED11FE8AB530086298D /* ViewController.m in Sources */,
+				AE759EDC1FE8AB530086298D /* main.m in Sources */,
+				AE759ECE1FE8AB530086298D /* AppDelegate.m in Sources */,
+				AE759EF71FE8AF0A0086298D /* YComputerDirector.m in Sources */,
+				AE759EFA1FE8B4AF0086298D /* YAdvancedComputerBuilder.m in Sources */,
+				AE759EEE1FE8AEC30086298D /* YNormalComputerBuilder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AEF8D75F1FE3BC84004637B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -676,6 +853,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		AE759ED21FE8AB530086298D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE759ED31FE8AB530086298D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE759ED71FE8AB530086298D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE759ED81FE8AB530086298D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		AEF8D76C1FE3BC84004637B9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -743,6 +936,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AE759EDD1FE8AB530086298D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LME682U793;
+				INFOPLIST_FILE = "04_建造者模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.-4------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE759EDE1FE8AB530086298D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LME682U793;
+				INFOPLIST_FILE = "04_建造者模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.-4------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		AEF8D7771FE3BC84004637B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -964,6 +1185,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AE759EDF1FE8AB530086298D /* Build configuration list for PBXNativeTarget "04_建造者模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE759EDD1FE8AB530086298D /* Debug */,
+				AE759EDE1FE8AB530086298D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AEF8D75E1FE3BC84004637B9 /* Build configuration list for PBXProject "设计模式_OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
