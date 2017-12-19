@@ -32,7 +32,7 @@
     // 展示产品
     [normalComputer show];
     
-    // <普通电脑>装配、构建
+    // <高配电脑>装配、构建
     [director constructWithBuilder:advBuilder];
     // 具体产品
     YComputer *advComputer = [advBuilder getBuidResult];
