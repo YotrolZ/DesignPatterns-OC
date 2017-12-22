@@ -58,7 +58,7 @@
 - (void)testSingletonB {
     
     YSingletonB *singleton1 = [YSingletonB sharedInstance];
-    NSLog(@"%", singleton1);
+    NSLog(@"%@", singleton1);
     YSingletonB *singleton2 = [YSingletonB sharedInstance];
     NSLog(@"%@", singleton2);
     
