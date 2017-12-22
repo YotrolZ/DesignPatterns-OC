@@ -25,6 +25,15 @@
 		AE969B9C1FE51CB700B1FA97 /* YBenzCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE969B991FE51CB700B1FA97 /* YBenzCarFactory.m */; };
 		AE969B9D1FE51CB700B1FA97 /* YAudiCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE969B9A1FE51CB700B1FA97 /* YAudiCarFactory.m */; };
 		AE969B9F1FE5249200B1FA97 /* 抽象工厂模式.png in Resources */ = {isa = PBXBuildFile; fileRef = AE969B9E1FE5249200B1FA97 /* 抽象工厂模式.png */; };
+		AE988A981FECA63100A2DA65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE988A971FECA63100A2DA65 /* AppDelegate.m */; };
+		AE988A9B1FECA63100A2DA65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE988A9A1FECA63100A2DA65 /* ViewController.m */; };
+		AE988A9E1FECA63100A2DA65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE988A9C1FECA63100A2DA65 /* Main.storyboard */; };
+		AE988AA01FECA63100A2DA65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE988A9F1FECA63100A2DA65 /* Assets.xcassets */; };
+		AE988AA31FECA63100A2DA65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE988AA11FECA63100A2DA65 /* LaunchScreen.storyboard */; };
+		AE988AA61FECA63100A2DA65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE988AA51FECA63100A2DA65 /* main.m */; };
+		AE988AB11FECAC5700A2DA65 /* YSingletonA.m in Sources */ = {isa = PBXBuildFile; fileRef = AE988AB01FECAC5700A2DA65 /* YSingletonA.m */; };
+		AE988AB41FECAF7200A2DA65 /* YSingletonB.m in Sources */ = {isa = PBXBuildFile; fileRef = AE988AB31FECAF7200A2DA65 /* YSingletonB.m */; };
+		AE988AB61FECD96000A2DA65 /* 单例模式.png in Resources */ = {isa = PBXBuildFile; fileRef = AE988AB51FECD96000A2DA65 /* 单例模式.png */; };
 		AEF8D7681FE3BC84004637B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8D7671FE3BC84004637B9 /* AppDelegate.m */; };
 		AEF8D76B1FE3BC84004637B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8D76A1FE3BC84004637B9 /* ViewController.m */; };
 		AEF8D76E1FE3BC84004637B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF8D76C1FE3BC84004637B9 /* Main.storyboard */; };
@@ -97,6 +106,21 @@
 		AE969B9A1FE51CB700B1FA97 /* YAudiCarFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAudiCarFactory.m; sourceTree = "<group>"; };
 		AE969B9B1FE51CB700B1FA97 /* YAudiCarFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAudiCarFactory.h; sourceTree = "<group>"; };
 		AE969B9E1FE5249200B1FA97 /* 抽象工厂模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抽象工厂模式.png"; sourceTree = "<group>"; };
+		AE988A941FECA63100A2DA65 /* 05_单例模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05_单例模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE988A961FECA63100A2DA65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE988A971FECA63100A2DA65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE988A991FECA63100A2DA65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE988A9A1FECA63100A2DA65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE988A9D1FECA63100A2DA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE988A9F1FECA63100A2DA65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE988AA21FECA63100A2DA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE988AA41FECA63100A2DA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE988AA51FECA63100A2DA65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE988AAF1FECAC5700A2DA65 /* YSingletonA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSingletonA.h; sourceTree = "<group>"; };
+		AE988AB01FECAC5700A2DA65 /* YSingletonA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSingletonA.m; sourceTree = "<group>"; };
+		AE988AB21FECAF7200A2DA65 /* YSingletonB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSingletonB.h; sourceTree = "<group>"; };
+		AE988AB31FECAF7200A2DA65 /* YSingletonB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSingletonB.m; sourceTree = "<group>"; };
+		AE988AB51FECD96000A2DA65 /* 单例模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单例模式.png"; sourceTree = "<group>"; };
 		AEF8D7631FE3BC84004637B9 /* 设计模式_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "设计模式_OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF8D7661FE3BC84004637B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEF8D7671FE3BC84004637B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -163,6 +187,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		AE759EC71FE8AB530086298D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE988A911FECA63100A2DA65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,6 +377,43 @@
 			path = "具体产品B";
 			sourceTree = "<group>";
 		};
+		AE988A951FECA63100A2DA65 /* 05_单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AE988AAA1FECA65E00A2DA65 /* 案例 */,
+				AE988AAB1FECA65F00A2DA65 /* UML类图 */,
+				AE988A961FECA63100A2DA65 /* AppDelegate.h */,
+				AE988A971FECA63100A2DA65 /* AppDelegate.m */,
+				AE988A991FECA63100A2DA65 /* ViewController.h */,
+				AE988A9A1FECA63100A2DA65 /* ViewController.m */,
+				AE988A9C1FECA63100A2DA65 /* Main.storyboard */,
+				AE988A9F1FECA63100A2DA65 /* Assets.xcassets */,
+				AE988AA11FECA63100A2DA65 /* LaunchScreen.storyboard */,
+				AE988AA41FECA63100A2DA65 /* Info.plist */,
+				AE988AA51FECA63100A2DA65 /* main.m */,
+			);
+			path = "05_单例模式";
+			sourceTree = "<group>";
+		};
+		AE988AAA1FECA65E00A2DA65 /* 案例 */ = {
+			isa = PBXGroup;
+			children = (
+				AE988AAF1FECAC5700A2DA65 /* YSingletonA.h */,
+				AE988AB01FECAC5700A2DA65 /* YSingletonA.m */,
+				AE988AB21FECAF7200A2DA65 /* YSingletonB.h */,
+				AE988AB31FECAF7200A2DA65 /* YSingletonB.m */,
+			);
+			path = "案例";
+			sourceTree = "<group>";
+		};
+		AE988AAB1FECA65F00A2DA65 /* UML类图 */ = {
+			isa = PBXGroup;
+			children = (
+				AE988AB51FECD96000A2DA65 /* 单例模式.png */,
+			);
+			path = "UML类图";
+			sourceTree = "<group>";
+		};
 		AEF8D75A1FE3BC84004637B9 = {
 			isa = PBXGroup;
 			children = (
@@ -354,6 +422,7 @@
 				AEF8D7AF1FE3CF7C004637B9 /* 02_工厂方法模式 */,
 				AEF8D7E31FE50E4B004637B9 /* 03_抽象工厂模式 */,
 				AE759ECB1FE8AB530086298D /* 04_建造者模式 */,
+				AE988A951FECA63100A2DA65 /* 05_单例模式 */,
 				AEF8D7641FE3BC84004637B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -366,6 +435,7 @@
 				AEF8D7AE1FE3CF7C004637B9 /* 02_工厂方法模式.app */,
 				AEF8D7E21FE50E4A004637B9 /* 03_抽象工厂模式.app */,
 				AE759ECA1FE8AB530086298D /* 04_建造者模式.app */,
+				AE988A941FECA63100A2DA65 /* 05_单例模式.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -603,6 +673,23 @@
 			productReference = AE759ECA1FE8AB530086298D /* 04_建造者模式.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AE988A931FECA63100A2DA65 /* 05_单例模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE988AA91FECA63100A2DA65 /* Build configuration list for PBXNativeTarget "05_单例模式" */;
+			buildPhases = (
+				AE988A901FECA63100A2DA65 /* Sources */,
+				AE988A911FECA63100A2DA65 /* Frameworks */,
+				AE988A921FECA63100A2DA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05_单例模式";
+			productName = "05_单例模式";
+			productReference = AE988A941FECA63100A2DA65 /* 05_单例模式.app */;
+			productType = "com.apple.product-type.application";
+		};
 		AEF8D7621FE3BC84004637B9 /* 设计模式_OC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEF8D7791FE3BC84004637B9 /* Build configuration list for PBXNativeTarget "设计模式_OC" */;
@@ -684,6 +771,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					AE988A931FECA63100A2DA65 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					AEF8D7621FE3BC84004637B9 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -720,6 +811,7 @@
 				AEF8D7AD1FE3CF7C004637B9 /* 02_工厂方法模式 */,
 				AEF8D7E11FE50E4A004637B9 /* 03_抽象工厂模式 */,
 				AE759EC91FE8AB530086298D /* 04_建造者模式 */,
+				AE988A931FECA63100A2DA65 /* 05_单例模式 */,
 			);
 		};
 /* End PBXProject section */
@@ -733,6 +825,17 @@
 				AE759ED61FE8AB530086298D /* Assets.xcassets in Resources */,
 				AE759ED41FE8AB530086298D /* Main.storyboard in Resources */,
 				AE759EE91FE8AC050086298D /* 建造者模式.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE988A921FECA63100A2DA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE988AA31FECA63100A2DA65 /* LaunchScreen.storyboard in Resources */,
+				AE988AA01FECA63100A2DA65 /* Assets.xcassets in Resources */,
+				AE988A9E1FECA63100A2DA65 /* Main.storyboard in Resources */,
+				AE988AB61FECD96000A2DA65 /* 单例模式.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,6 +896,18 @@
 				AE759EF71FE8AF0A0086298D /* YComputerDirector.m in Sources */,
 				AE759EFA1FE8B4AF0086298D /* YAdvancedComputerBuilder.m in Sources */,
 				AE759EEE1FE8AEC30086298D /* YNormalComputerBuilder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE988A901FECA63100A2DA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE988AB41FECAF7200A2DA65 /* YSingletonB.m in Sources */,
+				AE988A9B1FECA63100A2DA65 /* ViewController.m in Sources */,
+				AE988AA61FECA63100A2DA65 /* main.m in Sources */,
+				AE988A981FECA63100A2DA65 /* AppDelegate.m in Sources */,
+				AE988AB11FECAC5700A2DA65 /* YSingletonA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -865,6 +980,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				AE759ED81FE8AB530086298D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AE988A9C1FECA63100A2DA65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE988A9D1FECA63100A2DA65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE988AA11FECA63100A2DA65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE988AA21FECA63100A2DA65 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -943,6 +1074,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LME682U793;
 				INFOPLIST_FILE = "04_建造者模式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.-4------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -957,8 +1089,39 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LME682U793;
 				INFOPLIST_FILE = "04_建造者模式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.-4------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE988AA71FECA63100A2DA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LME682U793;
+				INFOPLIST_FILE = "05_单例模式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.-5-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE988AA81FECA63100A2DA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LME682U793;
+				INFOPLIST_FILE = "05_单例模式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.-5-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1133,6 +1296,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LME682U793;
 				INFOPLIST_FILE = "02_工厂方法模式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.-2-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1147,6 +1311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LME682U793;
 				INFOPLIST_FILE = "02_工厂方法模式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.-2-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1161,6 +1326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LME682U793;
 				INFOPLIST_FILE = "03_抽象工厂模式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.-3-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1175,6 +1341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LME682U793;
 				INFOPLIST_FILE = "03_抽象工厂模式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.-3-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1190,6 +1357,15 @@
 			buildConfigurations = (
 				AE759EDD1FE8AB530086298D /* Debug */,
 				AE759EDE1FE8AB530086298D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE988AA91FECA63100A2DA65 /* Build configuration list for PBXNativeTarget "05_单例模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE988AA71FECA63100A2DA65 /* Debug */,
+				AE988AA81FECA63100A2DA65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
